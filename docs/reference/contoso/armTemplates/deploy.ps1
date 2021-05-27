@@ -15,7 +15,7 @@ New-AzManagementGroupDeployment `
   -Name old-2-mg `
   -Location "uksouth" `
   -ManagementGroupId "old-3-mg" `
-  -TemplateUri "https://raw.githubusercontent.com/Mahesh-MSFT/Enterprise-Scale/deploy-at-mg/docs/reference/contoso/armTemplates/es-vwan-mg.json" `
+  -TemplateUri "https://github.com/sanjaykrsinghgit/rep_lz/blob/deploy-at-mg/docs/reference/contoso/armTemplates/es-vwan-mg-parameters.json" `
   -TemplateParameterUri "https://raw.githubusercontent.com/Mahesh-MSFT/Enterprise-Scale/deploy-at-mg/docs/reference/contoso/armTemplates/es-vwan-mg-portal-parameters.json" `
   -WhatIf
 
