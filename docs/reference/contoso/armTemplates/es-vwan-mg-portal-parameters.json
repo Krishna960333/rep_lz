@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "TAF-FMO"
+      "value": ""
     },
     "managementSubscriptionId": {
-      "value": "b4fdb68b-dfb2-4a38-bb44-8c47839f6ab7"
+      "value": ""
     },
     "connectivitySubscriptionId": {
       "value": ""
@@ -32,7 +32,7 @@
       ]
     },
     "corpLzSubscriptionId": {
-      "value": ["1abcdfd7-3630-4c35-a81c-e6bae3e241fa"]
+      "value": [""]
     },
     "enableLogAnalytics": {
       "value": "Yes"
@@ -182,7 +182,7 @@
       "value": "No"
     },
     "subscriptionId": {
-      "value": "b4fdb68b-dfb2-4a38-bb44-8c47839f6ab7"
+      "value": ""
     }
   }
 }
