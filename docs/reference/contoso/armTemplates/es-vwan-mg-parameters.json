@@ -30,7 +30,7 @@
             "value": []
         },
         "corpLzSubscriptionId": {
-            "value": []
+            "value": [""]
         },
         "enableLogAnalytics": {
             "value": "No",
