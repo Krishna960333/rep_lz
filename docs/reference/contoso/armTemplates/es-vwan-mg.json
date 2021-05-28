@@ -586,7 +586,7 @@
         {
             "condition": "[not(empty(parameters('onlineLzSubscriptionId')))]",
             "type": "Microsoft.Management/managementGroups/subscriptions",
-            "scope": "/",
+            "scope": "/Tenant Root Group/TAF-FMO",
             "apiVersion": "2020-05-01",
             "name": "[if(not(empty(parameters('onlineLzSubscriptionId'))), concat(parameters('enterpriseScaleCompanyPrefix'), '-online', '/', parameters('onlineLzSubscriptionId')[copyIndex()]), variables('noOnlineLzSubscription'))]",
             "dependsOn": [
